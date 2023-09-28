@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: { 
       colors: {
-        primary: '#212f48', // Màu chính
+        primary: '#212F48', // Màu chính 
+        background: '#212529',
         secondary: '#2B3B58', // Màu phụ
       },
     }

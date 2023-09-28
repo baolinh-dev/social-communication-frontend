@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBell, faFileLines, faFilm, faHome, faMessage, faSearch, faUsers } from '@fortawesome/free-solid-svg-icons'
 function Header() {
   return (
-    <header className=' p-3 border border-solid bg-primary'>
+    <header className=' p-3 border border-solid bg-primary fixed top-0 right-0 left-0 z-30'>
       <div className='flex items-center justify-between'>
         <div className='flex items-center'>
           <a href=''>
